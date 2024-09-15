@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+header {
+  background-color: #666666;
+  padding: 1rem;
+  border-radius: 0 0 5rem 5rem;
+
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+nav > ul > li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(109, 0, 0);
+}
+
+body ::selection {
+  background-color: rgb(177, 255, 251);
+  color: limegreen;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: limegreen;
+}
+
+a:visited {
+  color: rgb(179, 3, 3);
+}
+
+a:visited:hover {
+  color: limegreen;
+}
+
+.personagens_players {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
